@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aksa Fathima | PhD Applicant · BEES Lab, IISc Bangalore</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Aksa Fathima — Project Associate II, BEES Lab, DESE, IISc Bangalore. Research in nano-biosensors, micro/nanofabrication and point-of-care diagnostics. Seeking PhD admission in advanced biosensing platforms.">
+<meta name="author" content="Aksa Fathima">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Code+Pro:wght@400&display=swap">
+<meta property="og:title" content="Aksa Fathima | PhD Applicant · BEES Lab, IISc">
+<meta property="og:description" content="Project Associate II, BEES Lab, DESE, IISc Bangalore. Nano-biosensors and point-of-care diagnostics. Seeking PhD admission.">
+<meta property="og:image" content="assets/og-card.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/og-card.png">
+<style>
+/* Layout: al-folio academic layout — fixed top nav, single 930px column, list-style projects/publications with thumbnail left, quiet footer. */
+:root{
+  --bg:#ffffff; --fg:#0f0f12; --muted:#6b6670; --divider:rgba(20,0,20,.11);
+  --accent:#0056b3; --accent-soft:rgba(0,86,179,.08); --card:#ffffff; --code:#f6f2f6;
+  --nav-bg:rgba(255,255,255,.96); --shadow:0 1px 0 rgba(0,0,0,.06),0 2px 10px rgba(0,0,0,.04);
+  --badge-fg:#ffffff; --fig-bg:#ffffff;
+  --serif:"Book Antiqua","Palatino Linotype",Palatino,serif;
+  --sans:"Book Antiqua","Palatino Linotype",Palatino,serif;
+  --mono:"Source Code Pro",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --w:930px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1c1c1d; --fg:#e8e8ea; --muted:#a7a3ab; --divider:#3d3d42;
+  --accent:#2698ba; --accent-soft:rgba(38,152,186,.14); --card:#232327; --code:#26262b;
+  --nav-bg:rgba(28,28,29,.96); --shadow:0 1px 0 rgba(255,255,255,.05); --badge-fg:#ffffff; --fig-bg:#ffffff;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1c1c1d; --fg:#e8e8ea; --muted:#a7a3ab; --divider:#3d3d42;
+  --accent:#2698ba; --accent-soft:rgba(38,152,186,.14); --card:#232327; --code:#26262b;
+  --nav-bg:rgba(28,28,29,.96); --shadow:0 1px 0 rgba(255,255,255,.05); --badge-fg:#ffffff; --fig-bg:#ffffff;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-weight:400;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.brand,.post-title,h2.sec,.p-title,.cv-sec>h2{font-family:var(--serif)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--nav-bg)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:2px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+b,strong{font-weight:600}
+h1,h2,h3,h4{text-wrap:balance;line-height:1.25;margin:0}
+p{margin:0 0 1rem}
+hr{border:0;border-top:1px solid var(--divider);margin:2rem 0}
+.wrap{max-width:var(--w);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--nav-bg);backdrop-filter:saturate(1.4) blur(6px);box-shadow:var(--shadow);border-bottom:1px solid var(--divider)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px}
+.brand{color:var(--fg);font-size:1.2rem;font-weight:400;white-space:nowrap}
+.brand b{font-weight:700}
+.brand:hover{text-decoration:none;color:var(--accent)}
+.menu{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0}
+.menu a{display:block;padding:.4rem .6rem;color:var(--fg);font-weight:400;font-size:.95rem}
+.menu a:hover{color:var(--accent);text-decoration:none}
+.menu a[aria-current="page"]{color:var(--accent);font-weight:500}
+.iconbtn{background:none;border:0;color:var(--fg);cursor:pointer;padding:.45rem;display:inline-flex;border-radius:6px}
+.iconbtn:hover{color:var(--accent)}
+.iconbtn svg{width:18px;height:18px}
+.burger{display:none}
+@media (max-width:760px){
+  .burger{display:inline-flex}
+  .menu{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;background:var(--bg);border-bottom:1px solid var(--divider);padding:6px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px))}
+  .menu.open{display:flex}
+  .menu a{padding:.6rem .2rem;border-bottom:1px solid var(--divider)}
+}
+
+/* page */
+main{padding-block:2.5rem 4rem;min-height:70vh}
+.view{animation:fade .25s ease}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.view{animation:none}html{scroll-behavior:auto}}
+.post-title{font-size:2.5rem;font-weight:400;margin-bottom:.35rem;letter-spacing:-.01em}
+.post-title b{font-weight:700}
+.desc{color:var(--muted);font-size:1.05rem;margin-bottom:2rem}
+h2.sec{font-size:1.7rem;font-weight:400;margin:3rem 0 1.25rem;color:var(--fg)}
+h2.sec a{color:inherit}
+h3{font-size:1.15rem;font-weight:600;margin:0 0 .5rem}
+.prose{max-width:none}
+.prose p{text-align:justify;hyphens:auto}
+@media (max-width:600px){.prose p,.interest p{text-align:left}}
+
+/* about */
+.about{display:flow-root}
+.profile{float:right;width:240px;margin:0 0 1rem 2rem;text-align:center}
+.avatar{width:100%;aspect-ratio:1/1;border-radius:4px;overflow:hidden;background:var(--accent);display:grid;place-items:center;box-shadow:0 2px 8px rgba(0,0,0,.12);position:relative}
+.avatar img{width:100%;height:100%;object-fit:cover;display:block;position:relative;z-index:2}
+.avatar img.hidden{display:none}
+.avatar .mono{color:#fff;font-size:4.5rem;font-weight:700;letter-spacing:.02em;position:absolute;z-index:1}
+.avatar svg{position:absolute;inset:auto 14% 10% 14%;width:72%;opacity:.35;z-index:1}
+.more-info{font-family:var(--mono);font-size:.78rem;line-height:1.45;color:var(--muted);margin-top:.75rem}
+.social{display:flex;flex-wrap:wrap;gap:10px;margin:1rem 0 .25rem;justify-content:center}
+.social a{color:var(--fg);display:inline-flex;align-items:center;gap:5px;font-size:.82rem;font-weight:400}
+.social a:hover{color:var(--accent);text-decoration:none}
+.social svg{width:22px;height:22px}
+@media (max-width:640px){.profile{float:none;width:200px;margin:0 auto 1.5rem}.post-title{font-size:2rem}}
+
+.interest{display:grid;grid-template-columns:150px minmax(0,1fr);gap:22px;align-items:start;padding:1.1rem 0;border-top:1px solid var(--divider)}
+.interest:first-of-type{border-top:0;padding-top:0}
+.interest img{width:150px;aspect-ratio:1/1;border-radius:6px;background:var(--fig-bg);cursor:zoom-in;border:1px solid var(--divider)}
+.interest p{margin:0;text-align:justify;hyphens:auto}
+@media (max-width:560px){.interest{grid-template-columns:1fr}.interest img{width:100%;max-width:280px}}
+
+.news{width:100%;border-collapse:collapse}
+.news td{padding:.55rem 0;vertical-align:top;border-bottom:1px solid var(--divider)}
+.news tr:last-child td{border-bottom:0}
+.news td.d{width:110px;font-weight:500;white-space:nowrap;padding-right:1rem;font-variant-numeric:tabular-nums}
+@media (max-width:480px){.news td.d{width:80px;font-size:.9rem}}
+
+/* list entries: projects + publications */
+.list{list-style:none;margin:0;padding:0}
+.entry{display:grid;grid-template-columns:200px minmax(0,1fr);gap:24px;padding:1.4rem 0;border-bottom:1px solid var(--divider)}
+.entry:last-child{border-bottom:0}
+.thumb{position:relative;display:block;border-radius:4px;overflow:hidden;border:1px solid var(--divider);background:var(--fig-bg);align-self:start}
+.thumb img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .3s ease}
+a.thumb:hover img{transform:scale(1.03)}
+.abbr{position:absolute;left:8px;top:8px;background:var(--accent);color:var(--badge-fg);font-size:.68rem;font-weight:500;letter-spacing:.06em;text-transform:uppercase;padding:.15rem .45rem;border-radius:3px}
+.entry .t{font-weight:600;font-size:1.05rem;line-height:1.35;margin-bottom:.35rem;color:var(--fg)}
+.entry a.t:hover{color:var(--accent);text-decoration:none}
+.entry .au{font-size:.95rem;margin-bottom:.2rem}
+.entry .au b{font-weight:500;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent)}
+.entry .ven{font-style:italic;font-size:.95rem;color:var(--muted);margin-bottom:.35rem}
+.tags{font-style:italic;color:var(--muted);font-size:.92rem}
+.links{display:flex;flex-wrap:wrap;gap:.25rem .6rem;font-size:.92rem;font-weight:400;margin-top:.35rem}
+.award{display:inline-flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--accent);font-weight:500;font-size:.8rem;padding:.15rem .55rem;border-radius:999px;margin:.15rem 0 .35rem}
+.award svg{width:14px;height:14px}
+.num{counter-reset:pub}
+.num .entry{counter-increment:pub}
+.num .entry .t::before{content:counter(pub) ". ";color:var(--muted);font-weight:400}
+@media (max-width:600px){.entry{grid-template-columns:1fr;gap:12px}.thumb{max-width:320px}}
+
+.kv{font-size:.93rem;color:var(--muted)}
+.kv b{color:var(--fg);font-weight:500}
+
+/* project detail */
+.back{display:inline-flex;align-items:center;gap:6px;font-size:.92rem;font-weight:400;margin-bottom:1.25rem}
+.p-title{font-size:2rem;font-weight:400;margin-bottom:.6rem;letter-spacing:-.01em}
+.p-meta{color:var(--muted);font-size:1rem;margin-bottom:.25rem}
+.p-meta b{color:var(--fg)}
+.status{display:inline-block;font-size:.75rem;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:3px;padding:.1rem .45rem;margin-right:.5rem;vertical-align:2px}
+figure{margin:1.75rem 0;text-align:center}
+figure img{background:var(--fig-bg);border-radius:4px;border:1px solid var(--divider);cursor:zoom-in;max-width:100%;height:auto}
+figure.hero img{max-height:520px;width:auto}
+figcaption{font-size:.88rem;color:var(--muted);margin-top:.6rem;text-align:center;max-width:62ch;margin-inline:auto}
+figcaption b{color:var(--fg)}
+.prose h3{margin-top:2rem}
+.prose ul{padding-left:1.25rem;margin:0 0 1rem}
+.prose li{margin-bottom:.35rem}
+blockquote{margin:1.5rem 0;padding:.75rem 1rem;border-left:3px solid var(--accent);background:var(--accent-soft);font-style:italic}
+.ref{margin-top:2rem;padding:1rem 1.2rem;background:var(--code);border-radius:6px;font-size:.95rem}
+.ref .lbl{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500;display:block;margin-bottom:.25rem}
+.ref p{margin:.2rem 0}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:1rem 0 0}
+.btn{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--fg);border:1px solid var(--divider);border-radius:4px;padding:.35rem .7rem;background:var(--card)}
+.btn:hover{color:var(--accent);border-color:var(--accent);text-decoration:none}
+.btn svg{width:14px;height:14px}
+.pager{display:flex;justify-content:space-between;gap:16px;margin-top:3rem;padding-top:1.25rem;border-top:1px solid var(--divider);font-size:.92rem;font-weight:400}
+.pager a{max-width:48%}
+.pager .r{text-align:right;margin-left:auto}
+.pager small{display:block;color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase}
+
+/* cv */
+.cv-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.cv-sec{margin-top:2.5rem}
+.cv-sec>h2{font-size:1.4rem;font-weight:600;padding-bottom:.4rem;border-bottom:1px solid var(--divider);margin-bottom:1rem}
+.tl{list-style:none;margin:0;padding:0;display:grid;gap:1.1rem}
+.tl li{display:grid;grid-template-columns:130px minmax(0,1fr);gap:18px}
+.date{align-self:start;justify-self:start;background:var(--accent);color:var(--badge-fg);font-size:.78rem;font-weight:500;padding:.15rem .5rem;border-radius:3px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.tl .h{font-weight:500}
+.tl .s{color:var(--muted);font-size:.95rem}
+.tl p{margin:.3rem 0 0;font-size:.95rem}
+.skills{display:grid;grid-template-columns:230px minmax(0,1fr);gap:.6rem 18px;font-size:.95rem}
+.skills dt{font-weight:500}
+.skills dd{margin:0}
+@media (max-width:600px){.tl li,.skills{grid-template-columns:1fr;gap:6px}.skills dt{margin-top:.6rem}}
+
+/* gallery */
+.gallery{columns:3 240px;column-gap:14px}
+.gallery figure{break-inside:avoid;margin:0 0 14px;text-align:left}
+.gallery figcaption{text-align:left;margin:.4rem 0 0}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:1.5rem}
+.c-link-card{display:flex;align-items:center;gap:14px;padding:1.15rem 1.25rem;border:1px solid var(--divider);border-radius:8px;background:var(--card);color:var(--fg);text-decoration:none;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;cursor:pointer}
+.c-link-card:hover{transform:translateY(-2px);border-color:var(--accent);box-shadow:0 6px 18px rgba(0,0,0,.06);color:var(--fg);text-decoration:none}
+.c-link-card:hover .c-arrow{transform:translateX(4px);color:var(--accent)}
+.c-logo{width:42px;height:42px;border-radius:8px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;flex-shrink:0}
+.c-logo svg{width:22px;height:22px}
+.c-content{min-width:0;flex:1}
+.c-lbl{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:.2rem}
+.c-val{font-size:.95rem;font-weight:500;color:var(--fg);word-break:break-all;line-height:1.35}
+.c-val.mono{font-family:var(--mono);font-size:.9rem}
+.c-arrow{color:var(--muted);transition:transform .18s ease,color .18s ease;flex-shrink:0;margin-left:auto}
+.c-arrow svg{width:18px;height:18px}
+
+/* phd badge */
+.phd-badge{display:inline-flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;padding:.25rem .75rem;border-radius:999px;margin:.5rem 0 1.25rem;border:1px solid rgba(0,86,179,.2)}
+:root[data-theme="dark"] .phd-badge{border-color:rgba(38,152,186,.3)}
+.phd-badge svg{width:13px;height:13px}
+
+/* footer */
+footer{border-top:1px solid var(--divider);color:var(--muted);font-size:.85rem;padding-block:1.25rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,10,12,.9);display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));cursor:zoom-out}
+.lb img{max-width:100%;max-height:86vh;background:#fff;border-radius:4px}
+.lb p{color:#ddd;font-size:.9rem;text-align:center;margin:.75rem auto 0;max-width:70ch}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap" style="position:relative">
+    <a class="brand" href="#about"><b>Aksa</b> Fathima</a>
+    <div style="display:flex;align-items:center;gap:4px">
+      <ul class="menu" id="menu">
+        <li><a href="#about" data-nav="about">About</a></li>
+        <li><a href="#projects" data-nav="projects">Projects</a></li>
+        <li><a href="#publications" data-nav="publications">Publications &amp; Patents</a></li>
+        <li><a href="#cv" data-nav="cv">CV</a></li>
+        <li><a href="#gallery" data-nav="gallery">Gallery</a></li>
+        <li><a href="#contact" data-nav="contact">Contact</a></li>
+      </ul>
+      <button class="iconbtn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="iconbtn burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<!-- ================= ABOUT ================= -->
+<section class="view" data-view="about">
+  <div class="about">
+    <div class="profile">
+      <div class="avatar" id="avatarBox">
+        <img src="assets/img/profile.jpg" alt="Aksa Fathima" id="profileImg" onerror="this.classList.add('hidden');document.getElementById('avatarBox').dataset.noPhoto='1'">
+        <span class="mono">AF</span>
+        <svg viewBox="0 0 100 40" fill="#fff"><rect x="0" y="0" width="100" height="5"/><rect x="0" y="35" width="100" height="5"/><rect x="6" y="5" width="5" height="24"/><rect x="30" y="5" width="5" height="24"/><rect x="54" y="5" width="5" height="24"/><rect x="78" y="5" width="5" height="24"/><rect x="18" y="11" width="5" height="24"/><rect x="42" y="11" width="5" height="24"/><rect x="66" y="11" width="5" height="24"/><rect x="90" y="11" width="5" height="24"/></svg>
+      </div>
+      <div class="social">
+        <a href="mailto:aksafathima@iisc.ac.in" aria-label="Send Email (aksafathima@iisc.ac.in)" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></a>
+        <a href="assets/docs/Aksa_Fathima_CV.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae (PDF)" title="Curriculum Vitae"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></a>
+        <a href="https://scholar.google.com/citations?user=N_eg28MAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar profile" title="Google Scholar"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3 1 10l4 2.5V17c0 .3.1.6.4.8C7 19.2 9.4 20 12 20s5-.8 6.6-2.2c.3-.2.4-.5.4-.8v-4.5L23 10zm0 2.4L19.3 10 12 14.6 4.7 10z"/></svg></a>
+        <a href="https://github.com/aksafathima" target="_blank" rel="noopener" aria-label="GitHub profile" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg></a>
+        <a href="https://www.linkedin.com/in/aksa-fathima-1563041aa/" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg></a>
+      </div>
+    </div>
+
+    <h1 class="post-title"><b>Aksa</b> Fathima</h1>
+
+    <div class="prose">
+      <p>Hi,</p>
+      <p>I am a Project Associate II at the <a href="https://labs.dese.iisc.ac.in/beeslab/" target="_blank" rel="noopener">BEES Lab</a> within the Department of Electronic Systems Engineering (DESE) at the Indian Institute of Science (IISc), supervised by <a href="https://dese.iisc.ac.in/faculty/hardik-j-pandya/" target="_blank" rel="noopener">Prof. Hardik J. Pandya</a>. Prior to this, I earned my M.Sc. in Nanoscience and Technology from the JSS Academy of Higher Education and Research (JSSAHER).</p>
+      <p>My research focuses on the design of transducers, surface engineering, electrical and material characterisation, and clinical validation of advanced biosensing technologies for translational point-of-care diagnostics.</p>
+      <p>Additionally, I have gained valuable experience in micro- and nanofabrication and material characterisation across premier cleanroom facilities at IISc, including the <a href="https://labs.dese.iisc.ac.in/beeslab/NanoFab" target="_blank" rel="noopener">BEES Lab NanoFab</a>, the <a href="https://nnfc.cense.iisc.ac.in/" target="_blank" rel="noopener">National Nano Fabrication Centre (NNFC)</a>, and the <a href="https://mncf.cense.iisc.ac.in/" target="_blank" rel="noopener">Micro Nano Characterization Facility (MNCF)</a>. I am also currently collaborating with MSMF, JSS Medical College and Hospital, and Narayana Health for the clinical validation of this biosensing technology.</p>
+    </div>
+
+
+  </div>
+
+  <h2 class="sec">Research Interests</h2>
+  <p class="prose" style="margin-bottom:1.5rem">My broader interests lie at the intersection of nanoscience, surface chemistry, and micro- and nano-device engineering to develop next-generation diagnostic platforms for healthcare applications.</p>
+
+  <div class="interest">
+    <img src="assets/img/ri-nea.webp" alt="Micro/nanofabricated sensory array of 3D nanoelectrodes interfacing a neuron" data-zoom data-cap="Micro/nanofabricated sensory array (NEAs).">
+    <div><h3>Micro/nanofabricated Sensor Arrays</h3>
+    <p>I am driven to advance scalable 3D nanoelectrode arrays (NEAs) for high-fidelity intracellular signal acquisition and live-cell biophysics. Driven to explore advanced techniques like area-selective atomic layer deposition (AS-ALD) to optimize signal-to-noise ratios and long-term bio-interface stability, I aim to build upon my foundation in nanofabrication, surface functionalization, and impedance analytics (EIS). My goal is to apply these high-density bio-electronic platforms toward decoding electrophysiological dynamics in neural and cardiac cellular models for real-time disease profiling.</p></div>
+  </div>
+  <div class="interest">
+    <img src="assets/img/ri-wearable.webp" alt="Wearable microneedle patch with graphene Bio-FET and CMOS readout" data-zoom data-cap="Wearable microneedle + graphene Bio-FET platform.">
+    <div><h3>Wearable Biosensors &amp; Integrated Bio-FET Platforms</h3>
+    <p>I aim to explore integrated wearable platforms for continuous transdermal monitoring, combining microneedle arrays for minimally invasive sample collection with graphene Bio-FETs for real-time, label-free sensing. Leveraging my core background in surface functionalization and micro/nanofabrication, my goal is to bridge transdermal biofluid extraction with wireless point-of-care diagnostics and advance theranostic closed-loop systems for responsive therapeutic release.</p></div>
+  </div>
+  <div class="interest">
+    <img src="assets/img/ri-interface.webp" alt="Bio-interface with antibodies on a SAM, AFM scan and DFT model" data-zoom data-cap="Bio-interface engineering: SAMs, AFM, dynamic EIS and DFT modelling.">
+    <div><h3>Bio-interface Engineering and Surface Analytics</h3>
+    <p>I aim to design and characterize bio-nano interfaces to optimize target capture and signal transduction across diverse sensing platforms. Advancing beyond traditional drop-casting methods, I seek to combine Atomic Layer Deposition (ALD)-based surface engineering with Density Functional Theory (DFT) modelling and controlled surface functionalization (SAMs and bioconjugation) to investigate interfacial charge transfer. Integrating these theoretical insights with Electrochemical Impedance Spectroscopy (EIS), my goal is to drive rational bio-interface design for high-sensitivity diagnostic devices.</p></div>
+  </div>
+
+  <h2 class="sec">News</h2>
+  <table class="news"><tbody>
+    <tr><td class="d">Jan 2026</td><td>Our paper <a href="#lymph-node"><b>Impedance Profiling of Lymph Nodes: A Biomarker for Oral Cancer Metastasis</b></a> is published in <i>Microchemical Journal</i> (Elsevier).</td></tr>
+    <tr><td class="d">Oct 2025</td><td>Indian Patent No. <b>572340</b>, <a href="#publications/patent-572340"><i>A Multiplexed Electrochemical Sensor</i></a>, is granted.</td></tr>
+  </tbody></table>
+
+  <h2 class="sec"><a href="#publications">Selected Publications</a></h2>
+  <ol class="list num">
+    <li class="entry">
+      <a class="thumb" href="#lymph-node"><img src="assets/img/th-lymph-icbse.webp" alt="Biosensor chip for lymph node metastasis" loading="lazy"><span class="abbr">Microchem. J.</span></a>
+      <div><a class="t" href="#lymph-node">Impedance Profiling of Lymph Nodes: A Biomarker for Oral Cancer Metastasis</a>
+        <div class="au">Twinkle, H. Madhumathi, <b>Aksa Fathima</b>, Anil Vishnu, Amritha Suresh, Manjula Das, Hardik J. Pandya</div>
+        <div class="ven">Microchemical Journal (Elsevier), 227, 118842, 2026</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.microc.2026.118842" target="_blank" rel="noopener">[paper]</a><a href="#lymph-node">[project page]</a></div></div>
+    </li>
+    <li class="entry">
+      <a class="thumb" href="#chf"><img src="assets/img/th-chf.webp" alt="Multiplexed electrochemical biosensor module" loading="lazy"><span class="abbr">ICCHDCM</span></a>
+      <div><a class="t" href="#chf">Towards Early Diagnosis of Congestive Heart Failure using Multiplexed Immunosensor</a>
+        <div class="au"><b>Aksa Fathima</b>, Twinkle, Varun, Hardik J. Pandya<sup>*</sup></div>
+        <div class="ven">International Conference on Cardiology, Heart Disease and Cardiovascular Medicine (ICCHDCM), Vienna, Italy, Oct 2025 · <sup>*</sup> Presenter</div>
+        <span class="award"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.1 6.6.8-4.9 4.6 1.3 6.5L12 16.9 6.1 20l1.3-6.5L2.5 8.9l6.6-.8z"/></svg>Best Oral Presentation Award</span>
+        <div class="links"><a href="#chf">[project page]</a></div></div>
+    </li>
+  </ol>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="view" data-view="projects" hidden>
+  <h1 class="post-title">Projects</h1>
+  <ul class="list">
+    <li class="entry">
+      <a class="thumb" href="#oscc"><img src="assets/img/th-oscc.webp" alt="Multiplex biosensing workflow from saliva sample to readout" loading="lazy"><span class="abbr">In prep.</span></a>
+      <div><a class="t" href="#oscc">Multiplexed Electrochemical Biosensor for Non-invasive Screening and Risk Stratification of Oral Squamous Cell Carcinoma (OSCC)</a>
+        <div class="ven">Manuscript under preparation · with Mazumdar Shaw Medical Foundation (MSMF)</div>
+        <div class="tags">Electrochemical biosensing · Salivary biomarkers (S100A7, S100P) · Oral cancer screening · N = 145 clinical cohort</div></div>
+    </li>
+    <li class="entry">
+      <a class="thumb" href="#lymph-node"><img src="assets/img/th-lymph.webp" alt="Biosensor chip and lymph node samples" loading="lazy"><span class="abbr">Microchem. J.</span></a>
+      <div><a class="t" href="#lymph-node">Impedance Profiling of Lymph Nodes: A Biomarker for Oral Cancer Metastasis</a>
+        <div class="ven">2026, Microchemical Journal · with MSMF and Narayana Health</div>
+        <div class="tags">Impedance spectroscopy · Interdigitated electrodes · Maleimide chemistry · Metastasis detection</div></div>
+    </li>
+    <li class="entry">
+      <a class="thumb" href="#ammonia"><img src="assets/img/th-ammonia.webp" alt="Ammonia sources: industry, agriculture, food, breath" loading="lazy"><span class="abbr">IWPSD '25</span></a>
+      <div><a class="t" href="#ammonia">Dye-Integrated Electrospun Nanofiber Sensors for Visual Detection of Ammonia: A Portable and Low-Cost Approach Using PCL-BPB/BCG Composites</a>
+        <div class="ven">2025, IWPSD-2025, IIT Roorkee · Poster</div>
+        <div class="tags">Electrospinning · Colorimetric sensing · Breath analysis · Embedded readout</div></div>
+    </li>
+    <li class="entry">
+      <a class="thumb" href="#chf"><img src="assets/img/th-chf.webp" alt="Multiplexed electrochemical biosensor module on PCB" loading="lazy"><span class="abbr">ICCHDCM '25</span></a>
+      <div><a class="t" href="#chf">Towards Early Diagnosis of Congestive Heart Failure using Multiplexed Immunosensor</a>
+        <div class="ven">2025, ICCHDCM, Vienna, Italy · Best Oral Presentation Award</div>
+        <div class="tags">Immunosensor · PCB-integrated gold IDEs · BNP, NT-proBNP, cTn-I · 4-PL calibration</div></div>
+    </li>
+  </ul>
+
+  <h2 class="sec">M.Sc. Thesis</h2>
+  <ul class="list">
+    <li class="entry">
+      <a class="thumb" href="#nanofiber"><img src="assets/img/th-nanofiber.webp" alt="Nanofiber patch delivering capsaicin and CBD" loading="lazy"><span class="abbr">M.Sc.</span></a>
+      <div><a class="t" href="#nanofiber">Nanofibers Patch for Transdermal Drug Delivery of Capsaicin and CBD for Trigeminal Neuralgia Pain Management</a>
+        <div class="ven">2022, M.Sc. dissertation · JSS Academy of Higher Education and Research</div>
+        <div class="tags">Transdermal delivery · Electrospun PVA nanofibers · Soxhlet extraction · Release kinetics</div></div>
+    </li>
+  </ul>
+</section>
+
+<!-- ================= PROJECT 1: OSCC ================= -->
+<section class="view" data-view="oscc" hidden>
+  <a class="back" href="#projects">← all projects</a>
+  <h1 class="p-title">Multiplexed Electrochemical Biosensor for Non-invasive Screening and Risk Stratification of Oral Squamous Cell Carcinoma (OSCC)</h1>
+  <p class="p-meta"><span class="status">In preparation</span>Manuscript under preparation</p>
+  <p class="p-meta">In collaboration with <b>Mazumdar Shaw Medical Foundation (MSMF)</b></p>
+  <div class="prose">
+    <p>Oral squamous cell carcinoma (OSCC) remains a major global health challenge, with high mortality largely driven by delayed diagnosis. Approximately 80% of oral cancers originate from oral potentially malignant disorders (OPMDs). While tissue biopsy is the diagnostic gold standard, it is invasive, costly, and limited by poor patient compliance and localised sampling errors. Conversely, visual-oral examinations lack the specificity required to reliably distinguish dysplastic lesions from benign inflammatory conditions.</p>
+    <figure><img src="assets/img/oscc-burden.webp" alt="OSCC global burden, causes and transformation risk" loading="lazy" data-zoom><figcaption><b>Figure 1.</b> OSCC burden: global incidence, risk factors and the OPMD-to-OSCC transformation challenge.</figcaption></figure>
+    <p>To overcome these limitations, non-invasive saliva-based diagnostics present a promising alternative. However, conventional salivary biomarker assays often struggle to differentiate OPMDs and OSCC from common inflammatory conditions such as gingivitis and periodontitis. To address this, our work focuses on validating high-confidence salivary protein biomarkers, specifically S100A7 and S100P, which are heavily implicated in tumour progression and inflammation.</p>
+    <p>To achieve superior diagnostic precision, we couple these biomarker discoveries with advanced transducer technologies. By integrating traditional biochemical gold standards such as ELISA along with multiplexed electrochemical biosensors, we can significantly improve analytical performance and cross-validation. This synergistic approach overcomes conventional signal-to-noise limitations, lowers detection limits, and provides robust quantitative validation in complex clinical biofluids and in remote settings.</p>
+    <figure><img src="assets/img/oscc-method.webp" alt="Study methodology from cohort screening to ELISA correlation" loading="lazy" data-zoom><figcaption><b>Figure 2.</b> Methodology: cohort screening, paired biopsy and saliva collection, multiplexed biosensing, and ELISA cross-validation.</figcaption></figure>
+    <p>To validate system robustness, the multiplexed biosensor was tested on a clinical cohort of <b>N = 145</b> samples across benign, OPMD, and OSCC groups. The results showed excellent correlation with standard tissue biopsy and ELISA benchmarks, highlighting the platform's analytical accuracy and diagnostic potential.</p>
+    <blockquote>A manuscript detailing this work is currently under preparation.</blockquote>
+  </div>
+  <nav class="pager"><span></span><a class="r" href="#lymph-node"><small>Next</small>Impedance Profiling of Lymph Nodes →</a></nav>
+</section>
+
+<!-- ================= PROJECT 2: LYMPH NODE ================= -->
+<section class="view" data-view="lymph-node" hidden>
+  <a class="back" href="#projects">← all projects</a>
+  <h1 class="p-title">Impedance Profiling of Lymph Nodes: A Biomarker for Oral Cancer Metastasis</h1>
+  <p class="p-meta"><span class="status">Published</span>2026, <i>Microchemical Journal</i> (Elsevier)</p>
+  <p class="p-meta">In collaboration with <b>Mazumdar Shaw Medical Foundation (MSMF)</b> and <b>Narayana Health</b></p>
+  <div class="btns"><a class="btn" href="https://doi.org/10.1016/j.microc.2026.118842" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg>Paper</a></div>
+  <div class="prose">
+    <p>The most common type of oral cancer is oral squamous cell carcinoma (OSCC), with an average 5-year survival rate of 64.4–79.3%. Lymph node metastasis (LNM) serves as a critical prognostic determinant for patients suffering from OSCC, where a substantial proportion of individuals unfortunately present at an advanced disease stage with compromised survival outcomes. Also, due to challenges with the accurate detection of pathologically positive nodes, patients with clinically negative nodes frequently need surgical neck resection or radiation, resulting in morbidity and a detrimental impact on quality of life.</p>
+    <figure><img src="assets/img/lymph-workflow.webp" alt="Workflow of antibody-immobilised biochip and impedance measurement of lymph node extracts" loading="lazy" data-zoom><figcaption><b>Figure 1.</b> Antibody-immobilised biochip, protein extracts from excised lymph nodes (CK19, DUSP10, ITGA5, DSG3), and impedance-based identification of metastasis.</figcaption></figure>
+    <p>To overcome this clinical challenge, our recent study introduces a cutting-edge, portable biosensing platform comprising a multiplexed biochip and an impedance analyser to detect nodal metastasis in OSCC.</p>
+    <p>By utilizing targeted protein lysates and a biomarker panel comprising <b>CK19, DUSP10, ITGA5, and DSG3</b>, the biosensing platform demonstrates promising potential as a sensitive, accessible point-of-care technology that uses electrical impedance to detect metastasis in lymph nodes. The foundation of this biosensing approach relies on its surface chemistry with interdigitated electrodes (IDEs) functionalized via maleimide-based chemistry to securely immobilize the targeted reduced antibodies for optimal biorecognition.</p>
+    <p>The biochip demonstrated exceptional analytical performance, outperforming standard ELISA workflows by detecting statistically significant impedance changes across patient samples and achieving remarkable diagnostic accuracy, with <b>AUC values ranging from 0.8776 to 0.9375</b>. By merging the versatility of printed circuit boards with portable impedance readout, this point-of-care technology paves the way for rapid, decentralized, and cost-effective oncological screening.</p>
+  </div>
+
+  <nav class="pager"><a href="#oscc"><small>Previous</small>← OSCC multiplexed biosensor</a><a class="r" href="#ammonia"><small>Next</small>Nanofiber ammonia sensors →</a></nav>
+</section>
+
+<!-- ================= PROJECT 3: AMMONIA ================= -->
+<section class="view" data-view="ammonia" hidden>
+  <a class="back" href="#projects">← all projects</a>
+  <h1 class="p-title">Dye-Integrated Electrospun Nanofiber Sensors for Visual Detection of Ammonia: A Portable and Low-Cost Approach Using PCL-BPB/BCG Composites</h1>
+  <p class="p-meta"><span class="status">Presented</span>Preliminary work presented at IWPSD-2025, IIT Roorkee</p>
+  <div class="btns">
+    <a class="btn" href="assets/docs/IWPSD2025_ammonia_nanofiber_sensor.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg>Paper</a>
+    <a class="btn" href="assets/img/ammonia-poster.webp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Poster</a>
+  </div>
+  <div class="prose">
+    <p>Ammonia (NH₃) is a vital chemical precursor widely utilized across agriculture, food processing, textiles, and heavy industries, with global production exceeding hundreds of millions of metric tons. However, due to its high volatility and toxicity, accidental leaks or prolonged occupational exposure pose severe environmental and health risks. Low-level exposure (50–100 ppm) causes acute irritation to the eyes, nose, and throat, while concentrations exceeding 300 ppm present an immediate danger to human life. Furthermore, catastrophic incidents, such as the massive 2020 ammonium nitrate explosion in Beirut, underscore the critical need for rapid, reliable, and early-warning detection systems.</p>
+    <p>Additionally, ammonia, a volatile organic compound (VOC) present in exhaled human breath, serves as a crucial non-invasive biomarker for systemic metabolic dysfunctions, such as liver cirrhosis, renal failure, and gastrointestinal disorders. Conventional analytical techniques for breath testing (like gas chromatography-mass spectrometry) offer high precision but require bulky laboratory infrastructure, expensive equipment, and specialized personnel, rendering them impractical for point-of-care diagnostics. This work introduces a portable, low-cost colorimetric sensing platform designed for rapid, real-time breath analysis, combining electrospun nanofiber sensor arrays with an embedded microcontroller unit and cloud-linked analytics to enable accessible, on-site non-invasive screening.</p>
+    <figure><img src="assets/img/ammonia-poster.webp" alt="IWPSD-2025 conference poster" loading="lazy" data-zoom style="max-width:640px;width:100%"><figcaption><b>Poster.</b> IWPSD-2025, IIT Roorkee (track: MEMS, NEMS, Sensors). Click to enlarge.</figcaption></figure>
+  </div>
+
+  <nav class="pager"><a href="#lymph-node"><small>Previous</small>← Impedance Profiling of Lymph Nodes</a><a class="r" href="#chf"><small>Next</small>Congestive heart failure immunosensor →</a></nav>
+</section>
+
+<!-- ================= PROJECT 4: CHF ================= -->
+<section class="view" data-view="chf" hidden>
+  <a class="back" href="#projects">← all projects</a>
+  <h1 class="p-title">Towards Early Diagnosis of Congestive Heart Failure using Multiplexed Immunosensor</h1>
+  <p class="p-meta"><span class="status">Presented</span>ICCHDCM, October 2025, Vienna, Italy</p>
+  <span class="award"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.1 6.6.8-4.9 4.6 1.3 6.5L12 16.9 6.1 20l1.3-6.5L2.5 8.9l6.6-.8z"/></svg>Best Oral Presentation Award</span>
+  <div class="prose">
+    <p>Heart failure is defined as a clinical condition with signs or symptoms attributable to anatomic or functional cardiac abnormalities, validated by elevated natriuretic peptide levels and objective evidence of pulmonary or systemic congestion. Heart failures are primarily classified into two types:</p>
+    <ul>
+      <li><b>Acute Heart Failure:</b> a sudden, life-threatening condition in which the heart is unable to deliver adequate oxygen.</li>
+      <li><b>Congestive Heart Failure (CHF):</b> a critical chronic cardiac condition involving multiple physiological phenomena that often lead to adverse repercussions and mortality.</li>
+    </ul>
+    <figure><img src="assets/img/chf-schematic.webp" alt="Schematic of CHF early diagnosis with multiplexed immunosensor" loading="lazy" data-zoom><figcaption><b>Figure 1.</b> Schematic for early diagnosis of CHF: cardiac remodelling, biomarker release into circulation, sample processing and multiplexed immunosensing.</figcaption></figure>
+    <h3>The Diagnostic Challenge &amp; Biomarker Mechanism</h3>
+    <p>Cardiac biomarkers, specifically Brain Natriuretic Peptide (BNP), N-Terminal Pro-Brain Natriuretic Peptide (NT-proBNP), and Cardiac Troponin-I (cTn-I), play prominent roles in cardiac remodelling, including left ventricular dilation, left ventricular dysfunction, and increased left ventricular mass. Adverse ventricular remodelling causes these proteins to be released from injured cardiomyocytes, eventually leading to elevated plasma levels in ambulatory CHF patients. These elevated biomarker concentrations correlate directly with the degree of heart congestion across the three distinct stages of CHF.</p>
+    <figure><img src="assets/img/chf-biomarker-ranges.webp" alt="Table of elevated cardiac biomarker ranges in CHF stages" loading="lazy" data-zoom><figcaption><b>Figure 2.</b> Elevated ranges of cardiac biomarkers across the three stages of CHF.</figcaption></figure>
+    <p>Rapid and sensitive detection of acute myocardial infarction and congestive heart failure (CHF) requires decentralized diagnostic platforms capable of multi-analyte quantification from microliter blood volumes. To address this need, an advanced electrochemical biosensor was engineered on a multi-layer printed circuit board (PCB) substrate. The modular system incorporates gold interdigitated electrodes (IDEs) featuring a finger width and spacing of five micrometers on soldermask-free sensing patches. Unlike conventional microfluidic setups, this architecture employs direct sample application via pipette onto designated sensing regions, simplifying fluid handling and reducing device complexity.</p>
+    <figure><img src="assets/img/chf-4pl.webp" alt="4-PL regression curves and stage-wise box plots for BNP, NT-proBNP and cTn-I" loading="lazy" data-zoom><figcaption><b>Figure 3.</b> 4-PL regression calibration and stage-wise discrimination for BNP, NT-proBNP and cTn-I.</figcaption></figure>
+    <p>Electrochemical impedance spectroscopy was utilized to evaluate binding kinetics. Calibration curves analyzed via a 4-parameter logistic (4-PL) regression model demonstrated robust correlation coefficients (<b>R² = 0.90–0.94</b>). When evaluated using PBS-spiked samples, the sensor demonstrated high analytical specificity and was able to clearly delineate between the three clinical stages of heart failure based on distinct biomarker concentration ranges. Furthermore, statistical analysis across these stages yielded highly significant inter-group variance (<b>p &lt; 0.05 to p &lt; 10⁻⁶</b>), confirming that the PCB-integrated biosensor provides exceptional sensitivity and wide dynamic ranges suitable for point-of-care cardiac risk stratification.</p>
+    <p>The preliminary work was presented at the International Conference on Cardiology, Heart Disease and Cardiovascular Medicine (ICCHDCM, October 2025), Vienna, Italy.</p>
+    <h3>Future Work</h3>
+    <p>To further boost sensor sensitivity and specificity, this study is being extended through next-generation transducer architectures and tailored bio-interface surface engineering, followed by comprehensive clinical sample validation.</p>
+  </div>
+  <nav class="pager"><a href="#ammonia"><small>Previous</small>← Nanofiber ammonia sensors</a><a class="r" href="#nanofiber"><small>Next</small>Nanofiber patch (M.Sc. thesis) →</a></nav>
+</section>
+
+<!-- ================= PROJECT 5: NANOFIBER ================= -->
+<section class="view" data-view="nanofiber" hidden>
+  <a class="back" href="#projects">← all projects</a>
+  <h1 class="p-title">Nanofibers Patch for Transdermal Drug Delivery of Capsaicin and CBD for Trigeminal Neuralgia Pain Management</h1>
+  <p class="p-meta"><span class="status">M.Sc. thesis</span>M.Sc. dissertation work, JSS Academy of Higher Education and Research</p>
+  <div class="prose">
+    <p>Trigeminal neuralgia is a debilitating neuropathic facial pain condition characterized by paroxysmal, shock-like agony along the branches of the trigeminal nerve, often triggered by minimal sensory stimuli. Conventional pharmacological treatments frequently result in systemic adverse effects and diminishing long-term efficacy, driving the need for targeted, non-invasive transdermal drug delivery systems. This thesis investigates a synergistic dual-analgesic formulation combining capsaicin, extracted from <i>Capsicum assamicum</i> (Bhoot Jolokia), and cannabidiol (CBD) derived from hemp, specifically engineered for localized pain management. Capsaicin acts as a potent agonist of transient receptor potential vanilloid 1 (TRPV1) channels, eventually desensitizing hyperactive nociceptive pathways, while CBD offers complementary anti-inflammatory and neuromodulatory relief through cannabinoid receptor interactions without psychoactive interference.</p>
+    <figure><img src="assets/img/nf-workflow.webp" alt="Workflow from Soxhlet extraction to electrospun nanofiber patch" loading="lazy" data-zoom><figcaption><b>Figure 1.</b> Crude drug extraction and synthesis, nanofiber formulation, characterization and therapeutic application.</figcaption></figure>
+    <p>To ensure clinical viability and regulatory compliance, a rigorous Soxhlet extraction methodology utilizing selective solvents (hexane, ethyl acetate, and ethanol) was optimized to isolate the therapeutic phytoconstituents while selectively stripping out psychoactive tetrahydrocannabinol (THC) content. Phytochemical screening and UV-Vis spectrophotometric analyses confirmed that extraction parameters successfully maximized the yield of target analgesic compounds (CBD and capsaicin) while minimizing residual impurities and THC fractions. Furthermore, DPPH radical scavenging assays demonstrated significant antioxidant potential across the extracted fractions, validating their biochemical stability and therapeutic potency prior to polymer integration.</p>
+    <figure><img src="assets/img/nf-phytochem.webp" alt="Phytochemical table, DPPH assay and UV-Vis spectra" loading="lazy" data-zoom><figcaption><b>Figure 2.</b> Phytochemical and biochemical analysis: qualitative screening, DPPH assay and UV-Vis spectra of capsaicin and cannabidiol fractions.</figcaption></figure>
+    <p>The lyophilized crude drug extract was subsequently embedded into biocompatible polyvinyl alcohol (PVA) matrices and processed via electrospinning to yield uniform, high-surface-area transdermal nanofibrous patches. In vitro drug release kinetics studies revealed a biphasic release profile characterized by an initial burst release followed by sustained, controlled diffusion over extended periods. Mathematical modeling of the release data indicated compliance with established kinetic models, confirming that the PVA nanofiber platform provides a stable, prolonged transdermal delivery vehicle capable of maintaining therapeutic localized concentrations for chronic neuropathic pain mitigation.</p>
+    <figure><img src="assets/img/nf-release.webp" alt="Calibration curve and zero-order, first-order and square-root-of-time release plots" loading="lazy" data-zoom><figcaption><b>Figure 3.</b> Drug release kinetics: calibration curve, zero-order, first-order and cumulative release vs. √time.</figcaption></figure>
+  </div>
+  <nav class="pager"><a href="#chf"><small>Previous</small>← Congestive heart failure immunosensor</a><span></span></nav>
+</section>
+
+<!-- ================= PUBLICATIONS ================= -->
+<section class="view" data-view="publications" hidden>
+  <h1 class="post-title">Publications &amp; Patents</h1>
+  <p class="desc">Journal articles, conference presentations, book chapters and patents.</p>
+
+  <h2 class="sec" style="margin-top:1rem">Publications</h2>
+  <ol class="list num">
+    <li class="entry">
+      <a class="thumb" href="#lymph-node"><img src="assets/img/th-lymph-icbse.webp" alt="" loading="lazy"><span class="abbr">Journal</span></a>
+      <div><a class="t" href="#lymph-node">Impedance Profiling of Lymph Nodes: A Biomarker for Oral Cancer Metastasis</a>
+        <div class="au">Twinkle, H. Madhumathi, <b>Aksa Fathima</b>, Anil Vishnu, Amritha Suresh, Manjula Das, Hardik J. Pandya</div>
+        <div class="ven">Elsevier Microchemical Journal, 227, p. 118842, 2026</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.microc.2026.118842" target="_blank" rel="noopener">[paper]</a><a href="#lymph-node">[project page]</a></div></div>
+    </li>
+    <li class="entry">
+      <a class="thumb" href="#chf"><img src="assets/img/th-chf.webp" alt="" loading="lazy"><span class="abbr">Oral</span></a>
+      <div><a class="t" href="#chf">Towards Early Diagnosis of Congestive Heart Failure using Multiplexed Immunosensor</a>
+        <div class="au"><b>Aksa Fathima</b>, Twinkle, Varun, Hardik J. Pandya<sup>*</sup></div>
+        <div class="ven">International Conference on Cardiology, Heart Disease and Cardiovascular Medicine (ICCHDCM), October 2025, Vienna, Italy · <sup>*</sup> Presenter</div>
+        <span class="award"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.1 6.6.8-4.9 4.6 1.3 6.5L12 16.9 6.1 20l1.3-6.5L2.5 8.9l6.6-.8z"/></svg>Best Oral Presentation Award</span>
+        <div class="links"><a href="#chf">[project page]</a></div></div>
+    </li>
+    <li class="entry">
+      <a class="thumb" href="#lymph-node"><img src="assets/img/th-lymph.webp" alt="" loading="lazy"><span class="abbr">Oral</span></a>
+      <div><a class="t" href="#lymph-node">Electrical Impedance as a Signature for Metastatic Lymph Node Detection in Oral Cancer</a>
+        <div class="au">Twinkle, Anil Vishnu, Madhumati H, <b>Aksa Fathima</b>, Vijay Pillai, Manjula Das, Amritha Suresh, Hardik J. Pandya</div>
+        <div class="ven">International Conference on Biomedical Science and Engineering (ICBSE-2025), Rome, Italy · Oral presentation</div>
+        <div class="links"><a href="#lymph-node">[project page]</a></div></div>
+    </li>
+    <li class="entry">
+      <a class="thumb" href="#ammonia"><img src="assets/img/th-poster.webp" alt="" loading="lazy"><span class="abbr">Poster</span></a>
+      <div><a class="t" href="#ammonia">Dye-Integrated Electrospun Nanofiber Sensors for Visual Detection of Ammonia: A Portable and Low-Cost Approach Using PCL-BPB/BCG Composites</a>
+        <div class="au">Sushma Naik Moode, Hemanjali Mude<sup>#</sup>, <b>Aksa Fathima</b><sup>#</sup>, Ujjwal Chaudhary, Ananya Pal, Aloysious Benoy, Pavithran R, Hardik J. Pandya</div>
+        <div class="ven">XXII International Workshop on the Physics of Semiconductor Devices (IWPSD-2025), IIT Roorkee, Uttarakhand, India · Poster · <sup>#</sup>equal contribution</div>
+        <div class="links"><a href="assets/docs/IWPSD2025_ammonia_nanofiber_sensor.pdf" target="_blank" rel="noopener">[paper]</a><a href="assets/img/ammonia-poster.webp" target="_blank" rel="noopener">[poster]</a><a href="#ammonia">[project page]</a></div></div>
+    </li>
+    <li class="entry">
+      <a class="thumb" href="https://doi.org/10.1007/978-3-030-98820-3_1" target="_blank" rel="noopener"><img src="assets/img/th-food.webp" alt="" loading="lazy"><span class="abbr">Chapter</span></a>
+      <div><a class="t" href="https://doi.org/10.1007/978-3-030-98820-3_1" target="_blank" rel="noopener">Smart Use of Nanomaterials as Sensors for Detection and Monitoring of Food Spoilage</a>
+        <div class="au"><b>Aksa Fathima</b> et al.</div>
+        <div class="ven">Application of Nanotechnology in Food Science, Processing and Packaging, Springer International Publishing, 2022</div>
+        <div class="links"><a href="https://doi.org/10.1007/978-3-030-98820-3_1" target="_blank" rel="noopener">[chapter]</a></div></div>
+    </li>
+  </ol>
+
+  <h2 class="sec">Patents</h2>
+  <ul class="list">
+    <li class="entry" id="patent-572340">
+      <div class="thumb"><img src="assets/img/multiplexed-electrochemical-sensor.png" alt="Multiplexed electrochemical biosensor chip" loading="lazy"><span class="abbr">Granted</span></div>
+      <div><div class="t"><a href="assets/docs/patent-certificate-572340.pdf" target="_blank" rel="noopener">A Multiplexed Electrochemical Sensor</a></div>
+        <div class="au">Hardik J. Pandya, Anil Vishnu, Hari R. S. Ajay Krishnan, <b>Aksa Fathima</b>, Srividyasakti V.</div>
+        <div class="ven">Indian Patent No. 572340 · Utility patent</div>
+        <div class="kv">Filed <b>13 Dec 2023</b> · Granted <b>21 Oct 2025</b> · Status <b>Granted</b></div></div>
+    </li>
+    <li class="entry">
+      <div class="thumb"><img src="assets/img/th-patent-aide.webp" alt="" loading="lazy"><span class="abbr">In prep.</span></div>
+      <div><div class="t">Asymmetric Interdigitated Electrode Arrays for Enhanced Capacitive Biomolecule Sensing</div>
+        <div class="au">Hardik J. Pandya, <b>Aksa Fathima</b>, Hari R. S.</div>
+        <div class="ven">Design &amp; Utility patent</div>
+        <div class="kv">Status <b>Application in preparation</b></div></div>
+    </li>
+  </ul>
+</section>
+
+<!-- ================= CV ================= -->
+<section class="view" data-view="cv" hidden>
+  <div class="cv-head">
+    <h1 class="post-title">Curriculum Vitae</h1>
+    <a class="btn" href="assets/docs/Aksa_Fathima_CV.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>Download PDF</a>
+  </div>
+  <p class="prose" style="margin-top:.75rem">Project Associate at the BEES Lab, DESE, IISc, with hands-on research experience in nano-biosensors and point-of-care diagnostic systems. Trained in biosensor design and development, micro/nanofabrication, surface engineering, materials characterization and electrical impedance spectroscopy (EIS) based characterization. Research interests include BioMEMS and nano-biosensors, novel sensing platforms, nanoscale interfaces for biomolecule detection, and dynamic EIS approaches for single-molecule and ultra-low-concentration biosensing. <b>Seeking a doctoral research position</b> in advanced micro/nanofabrication technologies for translational biosensing platforms.</p>
+
+  <div class="cv-sec"><h2>Education</h2>
+    <ul class="tl">
+      <li><span class="date">2020 – 2022</span><div><div class="h">Master of Science in Nanoscience and Technology</div>
+        <div class="s">JSS Academy of Higher Education and Research (JSSAHER), Deemed University, Mysore, India</div>
+        <p>CGPA 8.3/10 · Advisor: Dr. Asha Srinivasan<br>Thesis: <a href="#nanofiber">PVA nanofibers for transdermal drug delivery of capsaicin and CBD for trigeminal neuralgia pain management</a></p></div></li>
+      <li><span class="date">2016 – 2019</span><div><div class="h">Bachelor's in Health Care and Technology</div>
+        <div class="s">St. Philomena’s Autonomous College, affiliated to the University of Mysore, India</div>
+        <p>CGPA 8.8/10, third rank in the batch. An interdisciplinary programme combining cardiac science, medical biochemistry and microbiology (majors) with a clinical internship in the cardiology department for about 2.5 years.</p></div></li>
+    </ul>
+  </div>
+
+  <div class="cv-sec"><h2>Work and Research Experience</h2>
+    <ul class="tl">
+      <li><span class="date">Sep 2022 – now</span><div><div class="h">Project Associate II, Biomedical Research Lab</div>
+        <div class="s">BEES Lab (Biomedical and Electronic 10⁻⁶–10⁻⁹ Engineering Systems Laboratory), DESE, IISc · Advisor: Prof. Hardik J. Pandya</div>
+        <p>Design, development, and validation of solutions to unmet point-of-care diagnostic problems for congestive heart failure, VOC detection, oral cancer, and oral cancer metastasis using different modalities.</p></div></li>
+      <li><span class="date">Dec 2021 – Feb 2022</span><div><div class="h">Intern, Centre of Excellence in Molecular Biology and Regenerative Medicine (CEMR)</div>
+        <div class="s">JSS Medical College, Mysore · Advisor: Dr. SubbaRao V. Madhunapantula</div>
+        <p>Cervical cancer cell line studies to assess drug efficacy; assisted with molecular biology techniques and cell line handling.</p></div></li>
+    </ul>
+  </div>
+
+  <div class="cv-sec"><h2>Teaching &amp; Training Contributions</h2>
+    <ul class="tl">
+      <li><span class="date">2023</span><div><div class="h">Sensors and Systems for Biomedical Application</div><div class="s">Coursera · IISc</div><p>Guest lecture topic: Glucose biosensor</p></div></li>
+      <li><span class="date">2023</span><div><div class="h">Sensors Technology (PG-level advanced certification programme)</div><div class="s">TalentSprint · IISc</div><p>Lab session on thermal and e-beam evaporation</p></div></li>
+    </ul>
+  </div>
+
+  <div class="cv-sec"><h2>Research Outcomes</h2>
+    <p class="prose">2 journal publications · 3 conference proceedings · 1 granted Indian patent, 1 in preparation. <a href="#publications">See full list →</a></p>
+  </div>
+
+  <div class="cv-sec"><h2>Technical Skills</h2>
+    <dl class="skills">
+      <dt>Micro/nanofabrication</dt><dd>Independent user, class 100/1000 (ISO 6) cleanroom. Thermal and e-beam evaporation, reactive ion etching (Cl/F), optical lithography.</dd>
+      <dt>Electrical characterization</dt><dd>EIS, cyclic voltammetry, differential pulse voltammetry, square-wave voltammetry, I–V on 2-probe/4-probe stations.</dd>
+      <dt>Materials characterization</dt><dd>Independent user: UV-Vis, FTIR, XPS, DLS, AFM, SEM.</dd>
+      <dt>Surface modification</dt><dd>Self-assembled monolayers, biofunctionalisation, bioconjugation of biomolecules and nanoparticles.</dd>
+      <dt>Nanoparticle synthesis</dt><dd>Sol-gel, chemical reduction, green synthesis.</dd>
+      <dt>Molecular biology</dt><dd>ELISA, electrophoresis, nucleic acid extraction, immunohistochemistry.</dd>
+      <dt>Data analysis</dt><dd>OriginPro, GraphPad Prism, Python (basics).</dd>
+      <dt>Computational chemistry</dt><dd>Molecular modelling and DFT: Quantum Espresso, NAMD, VESTA (developing proficiency).</dd>
+      <dt>Additional</dt><dd>Technical and scientific writing, presentation, communication, teamwork.</dd>
+    </dl>
+  </div>
+
+  <div class="cv-sec"><h2>Other Roles and Responsibilities</h2>
+    <ul class="tl">
+      <li><span class="date">2019 – 2022</span><div><div class="h">U&amp;I (non-profit organisation)</div><p>Child Protection Policy (CPP) Ambassador and Prevention of Sexual Harassment (POSH) Ambassador to the city chapter; team leader for one of the centres.</p></div></li>
+      <li><span class="date">Aug – Sep 2021</span><div><div class="h">Health Camp Organizer, All India Institute of Speech and Hearing (AIISH)</div><p>Volunteer for underprivileged children with congenital cardiac defects during routine diagnosis.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="view" data-view="gallery" hidden>
+  <h1 class="post-title">Gallery</h1>
+  <p class="desc">Conference poster from my research. Click to enlarge.</p>
+  <div class="gallery">
+    <figure><img src="assets/img/ammonia-poster.webp" alt="IWPSD-2025 poster — Dye-Integrated Electrospun Nanofiber Sensors for Visual Detection of Ammonia" loading="lazy" data-zoom><figcaption>IWPSD-2025 poster, IIT Roorkee</figcaption></figure>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="view" data-view="contact" hidden>
+  <h1 class="post-title">Contact</h1>
+  <h2 class="sec" style="margin-top:1rem">Let's get in touch!</h2>
+  <p class="prose">I am open for discussions on research collaborations, biosensor innovations, or potential research projects. If you'd like to talk about joint work, ideas, or opportunities, please feel free to contact me.</p>
+  <div class="contact-grid">
+    <div class="c-card"><div class="lbl">Institute email</div><div class="val" id="em1">aksafathima@iisc.ac.in</div><button class="copy" data-copy="em1">Copy</button></div>
+    <div class="c-card"><div class="lbl">Personal email</div><div class="val" id="em2">aksafathima05@gmail.com</div><button class="copy" data-copy="em2">Copy</button></div>
+    <div class="c-card"><div class="lbl">LinkedIn</div><div class="val">aksa-fathima-1563041aa</div><a class="btn" href="https://www.linkedin.com/in/aksa-fathima-1563041aa/" target="_blank" rel="noopener">Open profile</a></div>
+    <div class="c-card"><div class="lbl">Office</div><div class="val" style="font-family:var(--sans);word-break:normal">BEES Lab, Dept. of Electronic Systems Engineering, Indian Institute of Science, Bengaluru 560012</div></div>
+  </div>
+</section>
+
+</main>
+
+<footer><div class="wrap"><span>© Copyright 2026 Aksa Fathima.</span></div></footer>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  try{var t=localStorage.getItem('af-theme'); if(t) root.setAttribute('data-theme',t);}catch(e){}
+  document.getElementById('themeBtn').addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme');
+    if(!cur){cur=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}
+    var next=cur==='dark'?'light':'dark'; root.setAttribute('data-theme',next);
+    try{localStorage.setItem('af-theme',next);}catch(e){}
+  });
+  var menu=document.getElementById('menu'),burger=document.getElementById('burger');
+  burger.addEventListener('click',function(){var o=menu.classList.toggle('open');burger.setAttribute('aria-expanded',o);});
+
+  var views=[].slice.call(document.querySelectorAll('[data-view]'));
+  var names=views.map(function(v){return v.dataset.view});
+  var projectViews=['oscc','lymph-node','ammonia','chf','nanofiber'];
+  var titles={about:'Aksa Fathima',projects:'Projects',publications:'Publications & Patents',cv:'Curriculum Vitae',gallery:'Gallery',contact:'Contact'};
+  function show(){
+    var route=(location.hash||'#about').slice(1).split('/'), h=route[0], target=route[1];
+    if(names.indexOf(h)<0){h='about';target=null;}
+    views.forEach(function(v){v.hidden=v.dataset.view!==h});
+    var navKey=projectViews.indexOf(h)>=0?'projects':h;
+    document.querySelectorAll('[data-nav]').forEach(function(a){ if(a.dataset.nav===navKey) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');});
+    var sec=views[names.indexOf(h)], t=sec.querySelector('h1');
+    document.title=(h==='about'?'Aksa Fathima':(t?t.textContent.trim():h)+' | Aksa Fathima');
+    menu.classList.remove('open'); burger.setAttribute('aria-expanded','false');
+    if(target&&h==='publications'&&document.getElementById(target)){document.getElementById(target).scrollIntoView();}
+    else window.scrollTo(0,0);
+  }
+  window.addEventListener('hashchange',show); show();
+
+  // lightbox
+  document.addEventListener('click',function(e){
+    var img=e.target.closest('img[data-zoom]'); if(!img) return;
+    var cap=img.getAttribute('data-cap')||((img.closest('figure')||{}).querySelector?((img.closest('figure').querySelector('figcaption')||{}).textContent||''):'');
+    var lb=document.createElement('div'); lb.className='lb'; lb.setAttribute('role','dialog'); lb.tabIndex=-1;
+    var wrap=document.createElement('div'); var big=document.createElement('img'); big.src=img.src; big.alt=img.alt; wrap.appendChild(big);
+    if(cap){var p=document.createElement('p'); p.textContent=cap; wrap.appendChild(p);}
+    lb.appendChild(wrap); document.body.appendChild(lb); lb.focus();
+    function close(){lb.remove(); document.removeEventListener('keydown',k);}
+    function k(ev){if(ev.key==='Escape') close();}
+    lb.addEventListener('click',close); document.addEventListener('keydown',k);
+  });
+  // copy
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var el=document.getElementById(b.dataset.copy), txt=el.textContent.trim();
+      function sel(){var r=document.createRange(); r.selectNodeContents(el); var s=getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent='Selected';}
+      try{navigator.clipboard.writeText(txt).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1600)},sel);}catch(e){sel();}
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
